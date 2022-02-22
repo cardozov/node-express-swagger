@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
+    "dev": "yarn swagger-autogen && yarn start",
     "swagger-autogen": "node src/swagger.js"
   },
   "author": "Vinicius G. Cardozo <vinicius.gcardozo@gmail.com>",
